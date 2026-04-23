@@ -71,7 +71,7 @@ export default function App() {
           className="absolute inset-0"
           style={{
             backgroundImage:
-              'linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px)',
+              'linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px)',
             backgroundSize: '80px 80px',
             transform: `translate(${offset.x}px, ${offset.y}px)`,
             transition: 'transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)',

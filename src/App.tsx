@@ -101,7 +101,7 @@ export default function App() {
 
         <h1 className="text-7xl sm:text-8xl md:text-[9rem] font-black leading-[0.9] tracking-tight text-white mb-8">
           Lukas
-          <span className="text-neutral-200"> builds AI</span>
+          <span className="text-neutral-600"> builds AI</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-neutral-400 max-w-xl leading-relaxed font-light">

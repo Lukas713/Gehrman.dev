@@ -84,6 +84,7 @@ export default function App() {
         <div className="flex items-center gap-2">
           <Code2 size={20} className="text-emerald-400" />
           <span className="text-sm font-mono text-neutral-400 tracking-widest uppercase">Lukas</span>
+          <span className="text-neutral-600">.dev</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />

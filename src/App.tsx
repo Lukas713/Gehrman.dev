@@ -100,8 +100,7 @@ export default function App() {
         </div>
 
         <h1 className="text-7xl sm:text-8xl md:text-[9rem] font-black leading-[0.9] tracking-tight text-white mb-8">
-          Gehr
-          <span className="text-emerald-400">man</span>
+          Lukas
           <span className="text-neutral-600">.</span>
         </h1>
 

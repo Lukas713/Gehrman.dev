@@ -31,7 +31,7 @@ const socials = [
   {
     icon: Youtube,
     label: 'YouTube',
-    handle: 'Gehrman',
+    handle: 'Lukas',
     href: 'https://youtube.com',
     color: 'hover:border-red-500/60 hover:bg-red-500/5',
     dot: 'bg-red-400',
@@ -203,7 +203,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="relative z-10 border-t border-neutral-800/60 px-6 py-8 max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
-        <span className="text-xs font-mono text-neutral-600">2026 Gehrman</span>
+        <span className="text-xs font-mono text-neutral-600">2026 Lukas</span>
         <span className="text-xs font-mono text-neutral-700">built in public</span>
       </footer>
     </div>

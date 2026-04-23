@@ -84,7 +84,6 @@ export default function App() {
         <div className="flex items-center gap-2">
           <Code2 size={20} className="text-emerald-400" />
           <span className="text-sm font-mono text-neutral-400 tracking-widest uppercase">leus.hr</span>
-          <span className="text-sm font-mono text-neutral-400 tracking-widest"> - AI Powered Web Tools</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
@@ -102,7 +101,7 @@ export default function App() {
 
         <h1 className="text-7xl sm:text-8xl md:text-[9rem] font-black leading-[0.9] tracking-tight text-white mb-8">
           Lukas
-          <span className="text-neutral-600 sm:text-6xl"> builds with AI</span>
+          <span className="text-neutral-600 sm:text-6xl"> builds AI</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-neutral-400 max-w-xl leading-relaxed font-light">

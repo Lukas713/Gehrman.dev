@@ -23,7 +23,7 @@ const socials = [
   {
     icon: Twitter,
     label: 'Twitter / X',
-    handle: '@gehrman',
+    handle: '@LukasBuildAi',
     href: 'https://x.com',
     color: 'hover:border-sky-500/60 hover:bg-sky-500/5',
     dot: 'bg-sky-400',

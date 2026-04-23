@@ -83,7 +83,7 @@ export default function App() {
       <nav className="relative z-10 flex items-center justify-between px-6 py-6 max-w-5xl mx-auto">
         <div className="flex items-center gap-2">
           <Code2 size={20} className="text-emerald-400" />
-          <span className="text-sm font-mono text-neutral-400 tracking-widest uppercase">Lukas</span>
+          <span className="text-sm font-mono text-neutral-400 tracking-widest uppercase">Lukas AI Developer</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />

@@ -38,6 +38,16 @@ const socials = [
   },
 ];
 
+const projects = [
+  {
+    title: 'Caffe Bar Sense',
+    desc: 'Landing page for a local café bar in Đakovo. Dark industrial design, animated gallery, reservation button.',
+    url: 'https://caffe-bar-sense.vercel.app',
+    tag: 'Landing Page',
+    status: 'Live',
+  },
+];
+
 export default function App() {
   const gridRef = useRef<HTMLDivElement>(null);
   const [offset, setOffset] = useState({ x: 0, y: 0 });
@@ -99,10 +109,14 @@ export default function App() {
           </span>
         </div>
 
+        
+
         <h1 className="text-7xl sm:text-8xl md:text-[9rem] font-black leading-[0.9] tracking-tight text-white mb-8">
           Lukas
           <span className="text-neutral-600 sm:text-6xl"> builds with AI</span>
         </h1>
+
+        
 
         <p className="text-lg sm:text-xl text-neutral-400 max-w-xl leading-relaxed font-light">
           Building AI-powered web tools in public.{' '}
@@ -160,6 +174,43 @@ export default function App() {
       <div className="relative z-10 max-w-5xl mx-auto px-6">
         <div className="h-px bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
       </div>
+
+      {/* Projects */}
+      <section id="projects" className="relative z-10 max-w-5xl mx-auto px-6 py-24">
+        <div className="mb-12">
+          <p className="text-xs font-mono text-emerald-400 tracking-widest uppercase mb-3">/ projects</p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white leading-tight">Things I've built.</h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {projects.map(({ title, desc, tag, status, url }) => (
+            <div
+              key={title}
+              className="group relative border border-neutral-800 bg-neutral-900/50 rounded-xl p-6 hover:border-neutral-600 transition-all duration-300 hover:bg-neutral-900/80"
+            >
+              <div className="mb-4 flex items-center gap-2">
+                <span className="inline-flex items-center rounded-full border border-emerald-400/20 bg-emerald-400/10 px-2.5 py-1 text-[11px] font-mono uppercase tracking-wide text-emerald-400">
+                  {tag}
+                </span>
+                <span className="inline-flex items-center rounded-full border border-neutral-700 bg-neutral-800/60 px-2.5 py-1 text-[11px] font-mono uppercase tracking-wide text-neutral-300">
+                  {status}
+                </span>
+              </div>
+              <h3 className="text-base font-semibold text-white mb-2">{title}</h3>
+              <p className="text-sm text-neutral-500 leading-relaxed mb-5">{desc}</p>
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-emerald-400 hover:text-emerald-300 transition-colors duration-200"
+              >
+                View project
+                <ArrowUpRight size={14} />
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+      
 
       {/* Follow the Journey */}
       <section id="follow" className="relative z-10 max-w-5xl mx-auto px-6 py-24">

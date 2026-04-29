@@ -42,8 +42,15 @@ const projects = [
   {
     title: 'Caffe Bar Sense',
     desc: 'Landing page for a local café bar in Đakovo. Dark industrial design, animated gallery, reservation button.',
-    url: 'https://caffe-bar-sense.vercel.app',
+    url: 'https://sensebar.leus.hr',
     tag: 'Landing Page',
+    status: 'Live',
+  },
+  {
+    title: 'Magento Developer Portfolio',
+    desc: 'Professional portfolio showcasing 6+ years of Magento development. Features working contact form with email delivery.',
+    url: 'https://portfolio.leus.hr',
+    tag: 'Portfolio',
     status: 'Live',
   },
 ];

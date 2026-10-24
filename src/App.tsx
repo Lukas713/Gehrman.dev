@@ -40,6 +40,13 @@ const socials = [
 
 const projects = [
   {
+    title: 'Leus Notes',
+    desc: 'Records calls on Linux and turns them into English meeting notes. Local Whisper transcription and speaker separation on the GPU, notes written by Claude.',
+    url: 'https://github.com/Lukas713/leus-notes',
+    tag: 'AI Tool',
+    status: 'Open Source',
+  },
+  {
     title: 'Caffe Bar Sense',
     desc: 'Landing page for a local café bar in Đakovo. Dark industrial design, animated gallery, reservation button.',
     url: 'https://sensebar.leus.hr',
@@ -52,13 +59,6 @@ const projects = [
     url: 'https://portfolio.leus.hr',
     tag: 'Portfolio',
     status: 'Live',
-  },
-  {
-    title: 'Leus Notes',
-    desc: 'Records calls on Linux and turns them into English meeting notes. Local Whisper transcription and speaker separation on the GPU, notes written by Claude.',
-    url: 'https://github.com/Lukas713/leus-notes/tree/master',
-    tag: 'AI Tool',
-    status: 'Open Source',
   },
 ];
 
